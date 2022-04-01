@@ -1,0 +1,66 @@
+.banner_mobile {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(0%,-28%);
+}
+
+/* .banner_mobile .rotation {
+    width: ;
+} */
+
+
+.banner_mobile_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,0);
+}
+
+
+.banner_mobile_box .box_code {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 40px;
+    border: 2px solid #F23D3D;
+    outline: none;
+    text-align: center;
+    font-size: 28px;
+    color: #F23D3D;
+    margin-bottom: 10px;
+}
+
+
+.banner_mobile_box .box_code::placeholder {
+    font-size: 22px;
+    color: #F23D3D;
+    font-weight: 800;
+}
+
+.banner_mobile_box .box_code_child::placeholder {
+    font-size: 10px;
+    color: #F23D3D;
+    font-weight: 200;
+}
+.box_bottle {
+    transform: translate(-10%,-25%);
+    width: 80%;
+}
+.box_bottle > button {
+    padding: 5px 0;
+    display: block;
+    width: 227px;
+    border: 2px solid #FAFF00;
+    color: white;
+    border-radius: 40px;
+    background-color: #FF0000;
+    font-size: 25px;
+    margin: 0px auto;
+    
+}
+
+
+
