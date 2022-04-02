@@ -17,7 +17,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-30%,0);
+    transform: translate(-50%,0);
 }
 
 
@@ -28,16 +28,16 @@
     border: 2px solid #F23D3D;
     outline: none;
     text-align: center;
-    font-size: 28px;
+    font-size: 18px;
     color: #F23D3D;
     margin-bottom: 10px;
 }
 
 
 .banner_mobile_box .box_code::placeholder {
-    font-size: 22px;
+    font-size: 18px;
     color: #F23D3D;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .banner_mobile_box .box_code_child::placeholder {
@@ -46,13 +46,13 @@
     font-weight: 200;
 }
 .box_bottle {
-    transform: translate(-10%,-25%);
-    width: 80%;
+    transform: translate(0,-15%);
+    width: 100%;
 }
 .box_bottle > button {
     padding: 5px 0;
     display: block;
-    width: 227px;
+    width: 100%;
     border: 2px solid #FAFF00;
     color: white;
     border-radius: 40px;
